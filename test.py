@@ -50,15 +50,15 @@ def main(args):
     model = get_model(args)
     model.cuda()
 
-    checkpoint = torch.load('checkpoint/demo.pth')
+    checkpoint = torch.load('demo.pth')
     model.load_state_dict(checkpoint)
     model.eval()
     pos_num=0
     neg_num=0
     num=0
 
-    pos_feature=np.load('data/pos.npy')
-    neg_feature=np.load('data/neg.npy')
+    pos_feature=np.load('pos.npy')
+    neg_feature=np.load('neg.npy')
     pos_feature=torch.FloatTensor(pos_feature)
     neg_feature = torch.FloatTensor(neg_feature)
     pos_feature = Variable(pos_feature).cuda()
