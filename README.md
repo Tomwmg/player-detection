@@ -24,3 +24,11 @@ Python版本3.6以上，Pytorch版本0.4.0以上
 
 <img src="https://github.com/Tomwmg/player-detection/blob/master/mil.jpg" width="500" height="300" alt="运动员检测"/><br/>
 
+
+**参考文献**
+
+[1]	Maron O, Lozano-Pérez T. A framework for multiple-instance learning[C]. Advances in neural information processing systems. 1998: 570-576.
+[2]	Zhou L, Louis N, Corso J J. Weakly-supervised video object grounding from text by loss weighting and object interaction[J]. arXiv preprint arXiv:1805.02834, 2018.
+[3]	Shi J, Xu J, Gong B, et al. Not all frames are equal: Weakly-supervised video grounding with contextual similarity and visual clustering losses[C]. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2019: 10444-10452.
+[4]	Huang D A, Buch S, Dery L, et al. Finding[C]. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2018: 5948-5957.
+
