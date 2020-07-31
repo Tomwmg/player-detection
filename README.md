@@ -19,6 +19,7 @@ Python版本3.6以上，Pytorch版本0.4.0以上
 运行方式：Python xx.py
 
 **以下是基于Faster-RCNN通用检测模型的检测效果**
+
 <img src="https://github.com/Tomwmg/player-detection/blob/master/base.jpg" width="500" height="300" alt="通用检测"/><br/>
 
 <img src="https://github.com/Tomwmg/player-detection/blob/master/mil.jpg" width="500" height="300" alt="运动员检测"/><br/>
