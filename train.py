@@ -91,10 +91,10 @@ def get_model(args):
     model=DVSA()
     return model
 def get_dataset(args):
-    train_set = YC2_train_data(pos_feature='data/pos.npy',
-                               neg_feature='data/neg.npy')
-    val_set = YC2_train_data(pos_feature='data/pos.npy',
-                            neg_feature='data/neg.npy',train=False)
+    train_set = YC2_train_data(pos_feature='pos.npy',
+                               neg_feature='neg.npy')
+    val_set = YC2_train_data(pos_feature='pos.npy',
+                            neg_feature='neg.npy',train=False)
 
     return train_set,val_set
 
