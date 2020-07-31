@@ -34,8 +34,8 @@ class YC2_train_data(Dataset.Dataset):
 
 
 def get_dataset():
-    train_set = YC2_train_data( pos_feature='data/pos.npy',
-                                neg_feature='data/neg.npy')
+    train_set = YC2_train_data( pos_feature='pos.npy',
+                                neg_feature='neg.npy')
 
     return train_set
 
